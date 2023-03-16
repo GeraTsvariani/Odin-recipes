@@ -1,0 +1,192 @@
+.hello {
+    background-color: red;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    width: bold;
+}
+.how {
+    background-color: green;
+    color: white;
+    font-size: 18px;
+}
+.kiss {
+    background-color: orange;
+    font-size: 18px;
+}
+.odd {
+    background-color: pink;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.font {
+    font-size: 24px;
+}
+.second {
+    color: blue;
+    font-size: 36px;
+}
+.fourth {
+    background-color: rgb(17, 218, 17);
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+.same {
+    font-size: 28px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#first {
+    background-color: black;
+    color: white;
+}
+#notfirst {
+    background-color: yellow;
+}
+.original {
+    width: 300px;
+    height: auto;
+}
+.proportioned {
+    width: 200px;
+    height: 200px;
+}
+.distored {
+    height: 300px;
+    width: 150px;
+}
+
+.para,
+.small-para {
+    font-weight: bolder;
+}
+.para {
+    font-size: 22px;
+}
+.button {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+.small-para {
+    font-size: 14px;
+    font-weight: bolder;
+}
+#confirm-button {
+    background: green;
+    color: white;
+    font-weight: bold;
+}
+div .child {
+    color: rgb(0, 0, 0);
+    font-weight: 800;
+    font-size: 14px; 
+}
+.inline {
+    background-color: red;
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+.padding {
+    padding: 50px;
+    background-color: brown;
+    border: 5px solid black;
+}
+.margine {
+    padding: 50px;
+    background-color: brown;
+    border: 5px solid black;
+    margin-top: 20px;
+}
+.child1 {
+    display: block;
+    height: 200px;
+    width: 200px;
+    border: 5px solid black;
+
+
+}
+
+.first-element,
+.three-elements,
+.inside-element {
+    border: 2px solid red;
+    padding: 20px;
+
+}
+.three-elements  {
+    display: flex;
+    list-style: none;
+    
+
+}
+.inside-element {
+    display: block;
+
+}
+.blocked-element {
+    border: 2px solid blue;
+    display: flex;
+    padding: 15px;
+    margin-top: -10px;
+}
+
+.border-box {
+
+    padding: 20px;
+    margin: 30px;
+    border: 3px solid red;
+    /* box-sizing: inherit; */
+    height: 50px;
+    width: 200px;
+
+}
+
+.span-inside {
+   
+  margin: 20px;
+  padding: 20px;
+  width: 80px;
+  height: 50px;
+  background-color: lightblue;
+  border: 2px solid blue;
+  display: inline-block;
+
+
+
+}
+
+
+.block-inline {
+    border: 2px solid red;
+    height: 200px;
+    width: 300px;}
+
+.main-containter {
+    border: 3px solid red;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 500px;
+}
+
+.item-first,
+.item-second,
+.item-third {
+    border: 3px solid blue;
+    margin: 10px;
+    display: flex;
+} 
+
+.item-first {
+    order: 0;
+    flex-grow: 1;
+    
+}
+.item-second {
+    order: -1;
+    flex-basis: 20%;
+}
+.item-third {
+    flex-basis: 50%;
+}
